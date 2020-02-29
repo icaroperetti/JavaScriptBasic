@@ -1,0 +1,67 @@
+html {
+    font-size: calc(1em + 1vw);
+}
+
+@font-face {
+    font-family: 'Intervogue';
+    src: url(../fonts/IntervogueSoft.otf);
+}
+
+@font-face {
+    font-family: 'Karu';
+    src: url(../fonts/Karu-Light.otf);
+}
+
+@font-face {
+    font-family: 'Talis';
+    src: url(../fonts/TalisThin.ttf);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0000, 0000, 0000, 0.6), rgba(0000, 0000, 0000, 0.6)), url(../img/trem.jpg) center center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    padding-top: 35vh;
+    padding-bottom: 10vh;
+    font-family: 'Intervogue';
+    color: whitesmoke;
+    letter-spacing: 0.8vw;
+}
+
+.container p {
+    text-align: center;
+    color: greenyellow;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Intervogue';
+}
+
+.container p.contato {
+    text-align: center;
+    font-size: 0.6em;
+    color: white;
+    padding-top: 10vh;
+    letter-spacing: 0.3vw;
+}
+
+.container p.contato a {
+    color: white;
+    font-size: 1.1em;
+}
+
+@media all and (max-width: 480px) {
+    .container p {
+        font-size: 1.7em;
+    }
+}
